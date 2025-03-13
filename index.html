@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" placeholder="Enter City" spellcheck="false" />
+        <button>
+          <img
+            src="https://res.cloudinary.com/dg2fgkjxv/image/upload/v1741763353/search_icon-removebg-preview_unt9qr.png"
+          />
+        </button>
+      </div>
+      <div class="weather">
+        <img
+          src="https://res.cloudinary.com/dg2fgkjxv/image/upload/v1741780832/temperature-and-humidity-4-removebg-preview_yxrxoz.png"
+          alt="temp"
+        />
+        <h1 class="temp">22°C</h1>
+        <h2 class="city">Banglore</h2>
+        <div class="details">
+          <div class="col">
+            <img
+              src="https://res.cloudinary.com/dg2fgkjxv/image/upload/v1741780183/png-clipart-moisture-computer-icons-water-content-humidity-water-blue-angle-thumbnail-removebg-preview_fojhyg.png"
+              alt="humidity"
+            />
+            <div>
+              <p class="humidity">50%</p>
+              <p class="humidity-text">humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img
+              src="https://res.cloudinary.com/dg2fgkjxv/image/upload/v1741780444/imgbin-wind-wave-euclidean-icon-big-sea-waves-illustration-of-a-wave-artwork-esSttCp9LZPELC9K1pja8EERN-removebg-preview_oztspv.png"
+              alt="wind"
+            />
+            <div>
+              <p class="wind">30 km/h</p>
+              <p class="wind-text">Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
